@@ -29,6 +29,11 @@ exit
 ![Jenkins Freestyle project](./images/jenkins-freestyle-job-project.png)
 ![Jenkins Freestyle Job Output](./images/jenkins-freestyle-job-output.png)
 
+#### Using Pipeline - Script
+
+
+#### Using Pipeline - Jenkinsfile
+
 
 ---
 
