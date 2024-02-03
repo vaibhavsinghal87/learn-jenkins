@@ -47,3 +47,4 @@ exit
 ## Todo
 
 - setup jenkins server in local at jenkins-server.com
+- checkout git repository and compile it
