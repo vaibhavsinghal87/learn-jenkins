@@ -1,8 +1,13 @@
 # Jenkins - Freestyle Project
 
+Create jobs using Jenkins Freestyle project.
+
+
 ## Execute shell commands in Jenkins
 - explore environment variables, tools installed in jenkins container
  
+Env vars in jenkins can be accessed here - http://localhost:8080/env-vars.html/
+
 ```
 java -version
 git --version
@@ -30,13 +35,22 @@ Output -
 ![Jenkins Freestyle Job Output](./images/jenkins-freestyle-job-output.png)
 
 
-- Explore env variables - Can be directly accessed from http://localhost:8080/env-vars.html/
+## Clone Github Repository
+
+```
+echo $WORKSPACE
+ls
+chmod -R 755 $WORKSPACE/
+./scripts/shell.sh
+$WORKSPACE/scripts/shell.sh
+```
+
+Shell Commands - 
 
 
-- NodeJS is not installed by default in jenkins server. We need to install NodeJS plugin and enable nodejs from Tools.
+Output - 
 
 
-- Build a GIT repo
 
 
 
