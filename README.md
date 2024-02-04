@@ -25,13 +25,6 @@ exec commands can also be directly executed from Exec tab in Docker desktop.
 
 ![Jenkins Container](./images/jenkins-container-docker-desktop.png)
 
-### Create first job -
-
-
-#### Using Pipeline - Script
-
-
-#### Using Pipeline - Jenkinsfile
 
 NOTE - 
 - When pipeline executes on any agent, it creates a folder with same name as the job name. Therefore job name matters.
