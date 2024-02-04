@@ -15,5 +15,8 @@ Github allows connections to its repositories over HTTPS and SSH.
 - Create
 - Goto job for which you want to checkout github repository. Select Configuration.
 - Add Repository/credential 
+- Run job
+- Certificate error might error which will fail the checkout process
+- For fixing certificate error - Set git config --global http.sslverify false
 
 

@@ -35,11 +35,11 @@ Output -
 ![Jenkins Freestyle Job Output](./images/jenkins-freestyle-job-output.png)
 
 
-## Execute script in Jenkins directory
+## Execute shell script in Jenkins directory
 
 
 
-## Execute script from Github repo
+## Execute shell script in Github repo using jenkins job
 
 ```
 echo $WORKSPACE
@@ -51,9 +51,11 @@ $WORKSPACE/scripts/shell.sh
 
 Shell Commands - 
 
+![Jenkins Freestyle Job Output](./images/jenkins-freestyle-job-github-project.png)
 
 Output - 
 
+![Jenkins Freestyle Job Output](./images/jenkins-freestyle-job-github-output.png)
 
 ---
 

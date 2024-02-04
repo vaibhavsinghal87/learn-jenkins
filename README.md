@@ -52,3 +52,7 @@ NOTE -
 - explore node, agent, executors
 - create jenkins docker agents in local to be scheduled by jenkins server
 - create agents in azure/aws to be run by jenkins instance in azure/aws
+- publish docker container using pipeline - ACR, ECR, Github container registry, Dockerhub
+- create agent in local and run job on them
+- checkout github project and run npm install inside it and compile it using dockerfile
+- Create folder in jenkins and set environment variables
