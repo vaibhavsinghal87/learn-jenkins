@@ -5,8 +5,7 @@ Create jobs using Jenkins Freestyle project.
 
 ## Execute shell commands in Jenkins
 - explore environment variables, tools installed in jenkins container
- 
-Env vars in jenkins can be accessed here - http://localhost:8080/env-vars.html/
+- Env vars in jenkins can be accessed here - http://localhost:8080/env-vars.html/
 
 ```
 java -version
@@ -36,10 +35,10 @@ Output -
 
 
 ## Execute shell script in Jenkins directory
+- use an agent to create a script in workspace and then execute it
 
 
-
-## Execute shell script in Github repo using jenkins job
+## Execute shell script in Github repo using Jenkins job
 
 ```
 echo $WORKSPACE

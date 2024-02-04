@@ -29,6 +29,10 @@ exec commands can also be directly executed from Exec tab in Docker desktop.
 NOTE - 
 - When pipeline executes on any agent, it creates a folder with same name as the job name. Therefore job name matters.
 
+
+## Built-in Node - 
+![Jenkins Built-in node](./images/jenkins-built-in-node.png)
+
 ---
 
 ## References - 
