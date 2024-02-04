@@ -23,11 +23,18 @@ exit
 ```
 ![Jenkins Container](./images/jenkins-container-docker-desktop.png)
 
-### Create first job
+### Create first job -
 
 #### Using Freestyle project
+- Basic - 
 ![Jenkins Freestyle project](./images/jenkins-freestyle-job-project.png)
 ![Jenkins Freestyle Job Output](./images/jenkins-freestyle-job-output.png)
+
+- Build a GIT repo
+
+
+
+NOTE: Nodejs is not installed by default in jenkins image. If you want to install Nodejs, install Nodejs plugin in jenkins.
 
 #### Using Pipeline - Script
 
@@ -48,3 +55,10 @@ exit
 
 - setup jenkins server in local at jenkins-server.com
 - checkout git repository and compile it
+- jenkins + sonar integration
+- Jenkins + coverage + lcov - upload coverage results on server
+- play with env vars in a freestyle project, pipeline
+- create a job to checkout github, gitlab repo and do npm install
+- create a nodejs app container to checkout and do npm install
+- jenkins administration, tools, credentials, plugins
+- install nodejs in jenkins, how to manage different nodejs versions across project
