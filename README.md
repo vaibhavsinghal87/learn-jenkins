@@ -33,6 +33,8 @@ exec commands can also be directly executed from Exec tab in Docker desktop.
 
 #### Using Pipeline - Jenkinsfile
 
+NOTE - 
+- When pipeline executes on any agent, it creates a folder with same name as the job name. Therefore job name matters.
 
 ---
 

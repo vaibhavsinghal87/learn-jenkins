@@ -35,7 +35,11 @@ Output -
 ![Jenkins Freestyle Job Output](./images/jenkins-freestyle-job-output.png)
 
 
-## Clone Github Repository
+## Execute script in Jenkins directory
+
+
+
+## Execute script from Github repo
 
 ```
 echo $WORKSPACE
@@ -51,6 +55,7 @@ Shell Commands -
 Output - 
 
 
+---
 
 
 
