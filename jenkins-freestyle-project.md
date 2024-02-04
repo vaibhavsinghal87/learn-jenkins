@@ -1,10 +1,8 @@
-# Jenkins 
+# Jenkins - Freestyle Project
 
-Create jenkins job using Freestyle project
-
-- Basic - java and git are installed by default in jenkins.
-
-Shell Commands - 
+## Execute shell commands in Jenkins
+- explore environment variables, tools installed in jenkins container
+ 
 ```
 java -version
 git --version
@@ -22,11 +20,13 @@ ls
 echo "My First Job"
 whoami
 #!Linux commands-------------
-
-sh 'echo "Hello World"'
 ```
+Shell Commands - 
 
 ![Jenkins Freestyle project](./images/jenkins-freestyle-job-project.png)
+
+Output - 
+
 ![Jenkins Freestyle Job Output](./images/jenkins-freestyle-job-output.png)
 
 
@@ -43,7 +43,6 @@ sh 'echo "Hello World"'
 NOTE: 
 - Nodejs is not installed by default in jenkins image. If you want to install Nodejs, install Nodejs plugin in jenkins.
 - Jenkins has a number of plugins for invoking practically any build tool.
-
 
 
 ---
