@@ -27,25 +27,6 @@ exec commands can also be directly executed from Exec tab in Docker desktop.
 
 ### Create first job -
 
-#### Using Freestyle project
-- Basic - java and git are installed by default in jenkins.
-
-![Jenkins Freestyle project](./images/jenkins-freestyle-job-project.png)
-![Jenkins Freestyle Job Output](./images/jenkins-freestyle-job-output.png)
-
-
-- Explore env variables - Can be directly accessed from http://localhost:8080/env-vars.html/
-
-
-- NodeJS is not installed by default in jenkins server. We need to install NodeJS plugin and enable nodejs from Tools.
-
-
-- Build a GIT repo
-
-
-
-NOTE: Nodejs is not installed by default in jenkins image. If you want to install Nodejs, install Nodejs plugin in jenkins.
-
 
 #### Using Pipeline - Script
 
@@ -74,4 +55,5 @@ NOTE: Nodejs is not installed by default in jenkins image. If you want to instal
 - install nodejs in jenkins, how to manage different nodejs versions across project
 - Execute bash commands in freestyle project pipeline
 - explore node, agent, executors
-- create docker agents to be scheduled by jenkins server
+- create jenkins docker agents in local to be scheduled by jenkins server
+- create agents in azure/aws to be run by jenkins instance in azure/aws
