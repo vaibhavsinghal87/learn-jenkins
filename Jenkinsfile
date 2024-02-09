@@ -4,7 +4,7 @@ pipeline {
         stage('Build') {
             steps {
                 dir('nodejs-demo') {
-                    npm i
+                    sh "npm i"
                 }
             }
         }
