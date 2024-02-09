@@ -4,7 +4,7 @@
 
 - Public repository can directly be cloned using shell command in job - git clone <github_repo_url>
 
-![Git clone](./images/jenkins-git-clone.png)
+![Git clone](../images/jenkins-git-clone.png)
 
 
 

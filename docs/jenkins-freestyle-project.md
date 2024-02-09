@@ -27,11 +27,11 @@ whoami
 ```
 Shell Commands - 
 
-![Jenkins Freestyle project](./images/jenkins-freestyle-job-project.png)
+![Jenkins Freestyle project](../images/jenkins-freestyle-job-project.png)
 
 Output - 
 
-![Jenkins Freestyle Job Output](./images/jenkins-freestyle-job-output.png)
+![Jenkins Freestyle Job Output](../images/jenkins-freestyle-job-output.png)
 
 
 ## Execute shell script in Jenkins directory
@@ -50,11 +50,11 @@ $WORKSPACE/scripts/shell.sh
 
 Shell Commands - 
 
-![Jenkins Freestyle Job Output](./images/jenkins-freestyle-job-github-project.png)
+![Jenkins Freestyle Job Output](../images/jenkins-freestyle-job-github-project.png)
 
 Output - 
 
-![Jenkins Freestyle Job Output](./images/jenkins-freestyle-job-github-output.png)
+![Jenkins Freestyle Job Output](../images/jenkins-freestyle-job-github-output.png)
 
 ---
 
