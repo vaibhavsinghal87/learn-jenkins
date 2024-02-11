@@ -5,7 +5,7 @@ pipeline {
             steps {
                 echo "${WORKSPACE}"
                 dir('nodejs-demo') {
-                    sh "npm i"
+                    sh 'npm i'
                 }
             }
         }
