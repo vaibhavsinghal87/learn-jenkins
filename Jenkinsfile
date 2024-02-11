@@ -3,7 +3,7 @@ pipeline {
     stages {
         stage('Build') {
             steps {
-                echo $WORKSPACE
+                echo "${WORKSPACE}"
                 dir('nodejs-demo') {
                     sh "npm i"
                 }
