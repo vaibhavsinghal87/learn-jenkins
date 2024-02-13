@@ -5,11 +5,21 @@
 ```
 pipeline {
     agent any
-
+    tools {nodejs 'nodejs-21.6.1'}
     stages {
-        stage('Print Workspace') {
+        stage('Init') {
             steps {
                 echo "${WORKSPACE}"
+                sh 'npm -v'
+            }
+        }
+        
+        stage('Build') {
+            steps {
+                checkout scmGit(branches: [[name: '*/main']], extensions: [], userRemoteConfigs: [[credentialsId: 'jenkins-github-https-creds', url: 'https://github.com/vaibhavsinghal87/learn-jenkins/']])
+                dir('nodejs-demo') {
+                    sh 'npm i'
+                }
             }
         }
     }
@@ -37,4 +47,3 @@ pipeline {
 ---
 
 ## TODO - 
-- Only after adding _tools {nodejs 'nodejs-21.6.1'}_, npm i was successful. Why?
