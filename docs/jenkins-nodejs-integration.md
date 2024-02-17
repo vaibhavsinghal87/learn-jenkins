@@ -19,7 +19,7 @@
 ![NodeJS shell command](../images/jenkins-execute-nodejs-shell-command.png)
 
 ## Execute NodsJS script -
-- Mandatory to select - `Provide Node & npm bin/ folder to PATH`, when executing shell commands
+- **NOT** Mandatory to select - `Provide Node & npm bin/ folder to PATH`, when executing shell commands
 
 ![Execute NodeJS script](../images/jenkins-execute-nodejs-script.png)
 
