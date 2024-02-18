@@ -14,6 +14,7 @@
 
 ## Test Installation - 
 - Create a freestyle job.
+- Configure tools to be used in pipeline in below step
 - Mandatory to select - `Provide Node & npm bin/ folder to PATH`, when executing shell commands
 
 ![NodeJS shell command](../images/jenkins-execute-nodejs-shell-command.png)
@@ -23,3 +24,7 @@
 
 ![Execute NodeJS script](../images/jenkins-execute-nodejs-script.png)
 
+
+## References - 
+- [NodeJS Plugin](https://plugins.jenkins.io/nodejs/)
+- [NodeJS Pipeline step](https://www.jenkins.io/doc/pipeline/steps/nodejs/)
