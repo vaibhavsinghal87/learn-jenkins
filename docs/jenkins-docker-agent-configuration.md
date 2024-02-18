@@ -6,6 +6,12 @@
 - https://www.jenkins.io/solutions/docker/
 - https://www.jenkins.io/blog/2020/05/06/docker-agent-image-renaming/
 - https://www.jenkins.io/blog/2021/12/08/containers-as-build-agents/
+- https://docs.docker.com/desktop/networking/
+- https://docs.docker.com/config/daemon/remote-access/
+- https://jpetazzo.github.io/2015/09/03/do-not-use-docker-in-docker-for-ci/
+- https://github.com/jpetazzo/dind?tab=readme-ov-file
+- https://itnext.io/docker-inside-docker-for-jenkins-d906b7b5f527
+
 
 
 
