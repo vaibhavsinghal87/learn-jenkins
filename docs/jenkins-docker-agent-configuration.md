@@ -11,6 +11,10 @@
 - https://jpetazzo.github.io/2015/09/03/do-not-use-docker-in-docker-for-ci/
 - https://github.com/jpetazzo/dind?tab=readme-ov-file
 - https://itnext.io/docker-inside-docker-for-jenkins-d906b7b5f527
+- https://www.jenkins.io/solutions/docker/
+- https://github.com/smoogie/jenkins_docker_example
+- https://www.digitalocean.com/community/questions/how-to-fix-docker-got-permission-denied-while-trying-to-connect-to-the-docker-daemon-socket
+
 
 
 
